@@ -2,7 +2,7 @@ body {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background-image:url("../images/spiration-light.png")
+    background-image: url("../images/spiration-light.png")
    
 
 }
@@ -34,6 +34,7 @@ h1 {
     position: absolute;
     margin-left: 680px;
     margin-top: 0px;
+    clear: both;
 }
 #main {
     clear: both;
@@ -43,16 +44,18 @@ h1 {
     margin-top: 20px;
     background-color:#ffffff;
     border: 2px solid #eeeeee;
-    padding: 10px;
+    padding: 20px;
+    position: relative;
 
 }
 h2 {
-    width: 610px;
+    width: 650px;
     clear: both;
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 20px;
+    padding-bottom: 30px;
     border-bottom: 2px solid #777777;
+    font-size: 26px;
 
 }
 #myphoto {
@@ -90,23 +93,75 @@ li {
     float: left;
     margin-left: 20px;
     padding: 40px 10px 0px 30px;
-  
     list-style-type: none;
+}
+a {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 input {
-    width: 500px;
+    width: 640px;
     height: 20px;
+    font-size: 14px;
 }
 
 textarea {
-    width: 500px;
-    height: 500px;
+    width: 640px;
+    height: 200px;
+    font-size: 14px;
+    
 }
 
-.pi {
-    padding: 20px;
+button {
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    color: #eeeeee;
+    font-size: 14px;
+    background-color: #4aaaa5;
 }
+h4 {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #ffffff;
+    height: 40px;
+    width: 305px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    top: -105px;
+    left: 0px;
+    display: inline-block;
+
+}
+
+.project {
+  display: inline-block;
+  width: 310px;
+  height: 0px;
+}
+#a {
+   position: absolute;
+   bottom: 0px;
+   
+}
+#rpg {
+
+}
+#triva {
+
+}
+#rutgers {
+
+}
+#rps {
+
+}
+
+
 #textfoot {
     text-align: right;
 }
